@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="BlockViewFormEditing"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="1336bf0a-3656-48c6-89e2-675a8b2578dd"
+        Properties="{&quot;blockAddressRegex&quot;:&quot;&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

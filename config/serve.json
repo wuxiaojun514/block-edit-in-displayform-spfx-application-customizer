@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://{yourtenant}.sharepoint.com/sites/{your sites}/Lists/MyList/AllItems.aspx",
+      "customActions": {
+        "1336bf0a-3656-48c6-89e2-675a8b2578dd": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "blockAddressRegex": ""
+          }
+        }
+      }
+    },
+    "BlockViewFormEditing": {
+      "pageUrl": "https://{yourtenant}.sharepoint.com/sites/{your sites}/Lists/MyList/AllItems.aspx",
+      "customActions": {
+        "1336bf0a-3656-48c6-89e2-675a8b2578dd": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "blockAddressRegex": ""
+          }
+        }
+      }
+    }
+  }
+}

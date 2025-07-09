@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-extension-manifest.schema.json",
+
+  "id": "1336bf0a-3656-48c6-89e2-675a8b2578dd",
+  "alias": "BlockViewFormEditing",
+  "componentType": "Extension",
+  "extensionType": "ApplicationCustomizer",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+
+  "requiresCustomScript": false
+}

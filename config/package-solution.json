@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "block-view-form-editing-solution",
+    "id": "f43d56cb-7a33-4be5-89d0-4a9b8a1666b1",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "tony wu",
+      "websiteUrl": "https://github.com/wuxiaojun514",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "block view form editing"
+      },
+      "longDescription": {
+        "default": "block editing function on list view form to force user using edit form"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Application Extension - block view form editing",
+        "description": "Deploys a custom action with ClientSideComponentId association to block click event on 'ReactFieldEditor-core--display' to force end user use edit form",
+        "id": "05f0153e-10ed-40da-97ea-9863f11f957f",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/block-Editing-OnViewForm.sppkg"
+  }
+}

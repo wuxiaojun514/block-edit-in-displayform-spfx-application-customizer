@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.4",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.21.0",
+    "libraryName": "block-viewform-editing",
+    "libraryId": "f43d56cb-7a33-4be5-89d0-4a9b8a1666b1",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "block-viewform-editing",
+    "solutionShortDescription": "block-viewform-editing description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}
