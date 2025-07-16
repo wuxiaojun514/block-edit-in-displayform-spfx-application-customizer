@@ -49,10 +49,10 @@ export default class BlockViewFormEditingApplicationCustomizer extends BaseAppli
       }
     }
 
-    //old panel display form
-    if (jQuery(".list-form-container-root .list-form-client").length > 0) {
+    //old panel display form and full page display form
+    if (jQuery(".list-form-container-root").length > 0) {
       if (
-        jQuery('.list-form-container-root button[name="Edit all"]').length > 0
+        jQuery('button[name="Edit all"]').length > 0
       ) {
         $(".ReactFieldEditor-core--display").on("click", (event) => {
           event.preventDefault(); // Prevent the default action
