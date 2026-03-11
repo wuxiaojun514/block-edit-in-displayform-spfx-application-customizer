@@ -1,5 +1,5 @@
 import { Log } from "@microsoft/sp-core-library";
-import * as jQuery from "jquery";
+import jQuery from "jquery";
 import { BaseApplicationCustomizer } from "@microsoft/sp-application-base";
 
 import * as strings from "BlockViewFormEditingApplicationCustomizerStrings";
@@ -42,7 +42,7 @@ export default class BlockViewFormEditingApplicationCustomizer extends BaseAppli
     //new dialog display form
     if (jQuery(".sp-itemDialog .sp-itemDialogForm").length > 0) {
       if (jQuery('.sp-itemDialogHeader button[title="Edit all"]').length > 0) {
-        $(".ReactFieldEditor-core--display").on("click", (event) => {
+        jQuery(".ReactFieldEditor-core--display").on("click", (event) => {
           event.preventDefault(); // Prevent the default action
           event.stopPropagation(); // Stop the event from propagating
         });
@@ -54,7 +54,7 @@ export default class BlockViewFormEditingApplicationCustomizer extends BaseAppli
       if (
         jQuery('button[name="Edit all"]').length > 0
       ) {
-        $(".ReactFieldEditor-core--display").on("click", (event) => {
+        jQuery(".ReactFieldEditor-core--display").on("click", (event) => {
           event.preventDefault(); // Prevent the default action
           event.stopPropagation(); // Stop the event from propagating
         });
